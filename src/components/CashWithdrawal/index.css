@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  padding: 20px;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 45vw;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.name-heading {
+  color: #c7d2fe;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-description {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.balance-style-container {
+  display: flex;
+  flex-direction: column;
+}
+.balance-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.balance-description-style {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.withdraw-style {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.withdraw-description-style {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
